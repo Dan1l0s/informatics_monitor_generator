@@ -72,11 +72,11 @@ informatics_monitor/
 ├── requirements.txt         # Список зависимостей
 ├── .env.example             # Пример переменных окружения
 ├── .gitignore
+├── tests/                   # Различные unit-test'ы
 ├── modules/
 |   ├── informatics_api.py   # Работа с сайтом Informatics
 |   ├── menu.py              # CLI с выбором курсов, контестов и групп     
-|   ├── utils.py             # Утилиты: сбор ссылок, чтение env и др.
-|   └── __init__.py 
+|   └── utils.py             # Утилиты: сбор ссылок, чтение env и др.
 └── setup/                   # Скрипты для создания venv и установки зависимостей
     ├── setup.sh
     └── setup.bat
